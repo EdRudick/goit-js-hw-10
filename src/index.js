@@ -10,6 +10,7 @@ const ref = {
   loader: document.querySelector('.loader'),
   error: document.querySelector('.error'),
 };
+let isShown = 0;
 const { selector, divCatInfo, loader, error } = ref;
 
 loader.classList.replace('loader', 'is-hidden');
